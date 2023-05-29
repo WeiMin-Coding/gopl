@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	const freezingF, boilingF = 32.0, 212.0
@@ -15,6 +17,21 @@ func main() {
 	fmt.Println(p)
 	*p = 2
 	fmt.Println(&x)
+
+	var s string
+	fmt.Println(s)
+
+	//var i, j, k int
+	//var b, f, s = true, 2.3, "four"
+	//var f, err = os.Open("123")
+	//freq := rand.Float64() * 3.0
+	//t := 0.0
+	//i := 100
+	//var boiling float64 = 100
+	//var names []string
+	//var err error
+	//var p Point
+	//i, j := 0, 1
 }
 
 func fToC(f float64) float64 {
